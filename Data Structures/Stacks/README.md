@@ -34,3 +34,20 @@ else return S[top]
 ```
 return top + 1
 ```
+
+## Errors:
+
+- Underflow: An attempt was made to pop an empty stack.
+- Overflow: An attempt was made to push an item onto a full stack.
+
+## Time complexities:
+
+For all the stack operations, the time complexity is ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+
+## Applications:
+
+- Parantheses Matching 
+- Infix to postfix expressions
+- Infix expression computation
+- Backtracking
+- Activation records
