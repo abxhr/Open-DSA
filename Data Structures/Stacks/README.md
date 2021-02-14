@@ -44,6 +44,11 @@ return top + 1
 
 For all the stack operations, the time complexity is ![formula](https://render.githubusercontent.com/render/math?math=O(1))
 
+## Implementation:
+
+- [Array](Stacks_ArrayImplementation.cpp)
+- [Linked List](Stacks_LLImplementation.cpp)
+
 ## Applications:
 
 - Parantheses Matching 
