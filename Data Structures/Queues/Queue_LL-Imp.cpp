@@ -1,89 +1,90 @@
 #include <iostream>
 
-#define SIZE 150
 using namespace std;
 
-int queue[SIZE];
-int front = -1;
-int rear = -1;
+struct node{
+    int val;
+    node* next;
+    node(int x){
+        val = x;
+        next = NULL;
+    }
+};
 
-bool IsEmpty(){
-    return front == -1;
-}
+node *front = NULL;
+node *rear = NULL;
 
-bool IsFull(){
-    return (rear + 1) % SIZE == front;
+int qsize = 0;
+
+bool isEmpty(){
+    return front == NULL;
 }
 
 void enqueue(int val){
-    if (IsFull()){
-        cout << "Queue overflow!" << endl;
+    node* temp;
+    temp = new node(val);
+    qsize++;
+
+    cout << val << " enqueued!" << endl;
+
+    if (isEmpty()){
+        front = rear = temp;
         return;
     }
-    else{
-        if (IsEmpty()){
-            front = rear = 0;
-        }
-        else
-            rear++;
-        queue[rear] = val;
-        cout << val << " enqueued!" << endl;
-    }
+
+    rear->next = temp;
+    rear = temp;
 }
 
 void dequeue(){
-    if (IsEmpty()){
+    if (isEmpty()){
         cout << "Queue underflow!" << endl;
         return;
     }
-    else{
-        cout << queue[front] << " dequeued!" << endl;
-        if (front == rear)
-            rear = front = -1;
-        else
-            front++;
-    }    
+
+    node* temp = front;
+    int data = temp->val;
+    front = front -> next;
+
+    if (front == NULL){
+        rear = NULL;
+    }
+    qsize--;
+    cout << data << " dequeued!" << endl;
 }
 
-void FrontElement(){
-    if (IsEmpty()){
+void frontElement(){
+    if (isEmpty()){
         cout << "Queue underflow!" << endl;
+        return;
     }
-    else{
-        cout << "Front: " << queue[front] << endl;
-    }
+    cout << "Front: " << front->val << endl;
 }
 
-void RearElement(){
-    if (IsEmpty()){
+void rearElement(){
+    if (isEmpty()){
         cout << "Queue underflow!" << endl;
+        return;
     }
-    else{
-        cout << "Rear: " << queue[rear] << endl;
-    }
+    cout << "Rear: " << rear->val << endl;
 }
 
-void QueueSize(){
-    int length;
-    if ((rear == -1) && (front == -1)){
-        length = 0;
-    }
-    else{
-        length = (rear + SIZE - front) % SIZE + 1;
-    }
-    cout << "Size: " << length << endl;
+void queueSize(){
+    cout << "Size: " << qsize << endl;
 }
 
 void display(){
     cout << "Queue: ";
-    if ((rear == -1) && (front == -1)){
-        cout << "NULL";
+    node* temp = front;
+    if (temp == NULL){
+        cout << "NULL!" << endl;
+        return;
     }
-    else{
-        int length = (rear + SIZE - front) % SIZE + 1;
-        for (int i = 0; i < length; i++){
-            cout << queue[(front + i) % SIZE] << " ";
-        }
+    
+    while(temp){
+        int data = temp->val;
+        cout << data << " ";
+        temp = temp->next;
     }
     cout << endl;
 }
@@ -116,17 +117,17 @@ int main(){
             }
 
             case 3:{
-                FrontElement();
+                frontElement();
                 break;
             }
 
             case 4:{
-                RearElement();
+                rearElement();
                 break;
             }
 
             case 5:{
-                QueueSize();
+                queueSize();
                 break;
             }
 
