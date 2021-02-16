@@ -15,5 +15,5 @@ selectionsort(array, n):
 
 ### Complexity
 - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
-- Average Case: ![formula](https://render.githubusercontent.com/render/math?math=Theta(n^2))
-- Best Case: ![formula](https://render.githubusercontent.com/render/math?math=Omega(n^2))
+- Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
+- Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n^2))
