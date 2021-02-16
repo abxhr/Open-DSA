@@ -13,3 +13,5 @@ A compiled guide (codes) for various Data Structures and Algorithms
 ## Algorithms
 - [Searching](Algorithms/Searching)
     - [Linear Search](Algorithms/Searching/LinearSearch.cpp)
+- [Sorting](Algorithms/Sorting)
+    - [Selection Sort](Algorithms/Sorting/SelectionSort.cpp)
