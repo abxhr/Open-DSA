@@ -1,5 +1,5 @@
 # Data-Structures-and-Algorithms
-A compiled guide (codes) for various Data Structures and Algorithms 
+A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithms), with their Time Complexities, Applications, Implementation and much more!
 
 ## Data Structures
 - [Arrays](Data%20Structures/Arrays)
