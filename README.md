@@ -3,6 +3,8 @@ A compiled guide (codes) for various Data Structures and Algorithms
 
 ## Data Structures
 - [Arrays](Data%20Structures/Arrays)
+- [Linked List](Data%20Structures/Linked%20List)
+    - [Singly Linked List](Data%20Structures/Linked%20List/SinglyLinkedList.cpp)
 - [Stacks](Data%20Structures/Stacks)
     - [Array Implementation](Data%20Structures/Stacks/Stacks_ArrayImplementation.cpp)
     - [Linked List Implementation](Data%20Structures/Stacks/Stacks_LLImplementation.cpp)
