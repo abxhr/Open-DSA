@@ -2,6 +2,7 @@
 A compiled guide (codes) for various Data Structures and Algorithms 
 
 ## Data Structures
+- [Arrays](Data%20Structures/Arrays)
 - [Stacks](Data%20Structures/Stacks)
     - [Array Implementation](Data%20Structures/Stacks/Stacks_ArrayImplementation.cpp)
     - [Linked List Implementation](Data%20Structures/Stacks/Stacks_LLImplementation.cpp)
