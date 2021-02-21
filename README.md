@@ -1,4 +1,4 @@
-# Data-Structures-and-Algorithms
+# Open DSA
 A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithms), with their Time Complexities, Applications, Implementation and much more!
 
 ## Data Structures
