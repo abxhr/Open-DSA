@@ -15,7 +15,6 @@ node* last = NULL;
 void insert(int val, int index = llsize){
     llsize++;
     if (head == NULL){
-        cout << "head == NULL" << endl;
         head = new node();
         head->data = val;
         head->next = NULL;
@@ -27,13 +26,11 @@ void insert(int val, int index = llsize){
     node* temp = new node();
     temp->data = val;
     if (index == 0){
-        cout << "index == 0" << endl;
         temp->next = head;
         temp->prev = NULL; 
         head = temp;
     }
     else if (index < llsize - 1){
-        cout << "index < llsize" << endl;
         int i = 0;
         node* replace = head;
         node* previous_node = NULL;
@@ -48,7 +45,6 @@ void insert(int val, int index = llsize){
         replace->prev = temp;
     }
     else{
-        cout << "else "<< endl;
         last->next = temp;
         temp->prev = last;
         temp->next = NULL;
