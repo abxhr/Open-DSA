@@ -3,6 +3,7 @@ Unlike arrays, linked list elements are not stored at a contiguous location; the
 
 ## Implementation
 - [Singly Linked List](SinglyLinkedList.cpp)
+- [Doubly Linked List](DoublyLinkedList.cpp)
 
 ## Time Complexity
 - Access - ![formula](https://render.githubusercontent.com/render/math?math=O(n))
