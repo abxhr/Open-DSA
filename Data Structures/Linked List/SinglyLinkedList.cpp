@@ -27,7 +27,7 @@ void insert(int val, int index = llsize){
         temp->next = head;
         head = temp;
     }
-    else if (index < llsize){
+    else if (index < llsize - 1){
         int i = 0;
         node* replace = head;
         node* prev = NULL;
@@ -52,7 +52,7 @@ void delete_node(int x){
     node* prev = NULL;
 
     if(temp != NULL && temp->data == x){
-        last = head->next;
+        head = head->next;
         delete temp;
         cout << "Deleted!" << endl;
         llsize--;
@@ -68,6 +68,9 @@ void delete_node(int x){
             return ;
         }
         prev->next = temp->next;
+        if(prev->next == NULL){
+            last = prev;
+        }
         delete temp;
         llsize--;
         cout << "Deleted!" << endl;
@@ -108,6 +111,7 @@ void display_one(int index){
     node* temp = head;
     while(temp!=NULL && i<index){
         temp = temp->next;
+        i++;
     }
     cout << "Element: " << temp->data << endl;
 }
