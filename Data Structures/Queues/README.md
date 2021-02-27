@@ -2,6 +2,11 @@
 
 First-In-First-Out
 
+
+## Implementation:
+- [Array](Queue_Array-Imp.cpp)
+- [Linked List](Queue_LL-Imp.cpp)
+
 ## Operations:
 
 - Enqueue(Q, x):
@@ -54,13 +59,22 @@ return Q.rear - Q.front
 - Underflow: An attempt was made to dequeue an empty queue.
 - Overflow: An attempt was made to enqueue an item onto a full stack.
 
-## Time Complexities:
-
-For all the queue operations, the time complexity is ![formula](https://render.githubusercontent.com/render/math?math=O(1))
-
-## Implementation:
-- [Array](Queue_Array-Imp.cpp)
-- [Linked List](Queue_LL-Imp.cpp)
+## Complexity:
+- Time:
+    - Access: 
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+    - Search:
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+    - Insertion:
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+    - Deletion:
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+- Space:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
 
 ## Applications:
 
