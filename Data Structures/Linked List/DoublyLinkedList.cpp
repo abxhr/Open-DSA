@@ -65,6 +65,14 @@ void delete_node(int x){
         llsize--;
         return ;
     }
+    else if(last->data == x){
+        temp = last;
+        (last->prev)->next = NULL;
+        last = last->prev;
+        delete temp;
+        cout << "Deleted!" << endl;
+        return ;
+    }
     else{
         while(temp != NULL && temp->data != x){
             previous_node = temp;
@@ -75,6 +83,9 @@ void delete_node(int x){
             return ;
         }
         previous_node->next = temp->next;
+        if(previous_node->next == NULL){
+            last = previous_node;
+        }
         (previous_node->next)->prev = previous_node;
         delete temp;
         llsize--;
