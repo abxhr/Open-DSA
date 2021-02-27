@@ -1,5 +1,10 @@
 # Stacks
 
+## Implementation:
+
+- [Array](Stacks_ArrayImplementation.cpp)
+- [Linked List](Stacks_LLImplementation.cpp)
+
 ## Operations:
 
 - Push(S, x):
@@ -40,14 +45,22 @@ return top + 1
 - Underflow: An attempt was made to pop an empty stack.
 - Overflow: An attempt was made to push an item onto a full stack.
 
-## Time complexities:
-
-For all the stack operations, the time complexity is ![formula](https://render.githubusercontent.com/render/math?math=O(1))
-
-## Implementation:
-
-- [Array](Stacks_ArrayImplementation.cpp)
-- [Linked List](Stacks_LLImplementation.cpp)
+## Complexity:
+- Time:
+    - Access: 
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+    - Search:
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+    - Insertion:
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+    - Deletion:
+        - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+        - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+- Space:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
 
 ## Applications:
 
