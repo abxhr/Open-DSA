@@ -19,3 +19,4 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Linear Search](Algorithms/Searching/LinearSearch.cpp)
 - [Sorting](Algorithms/Sorting)
     - [Selection Sort](Algorithms/Sorting/SelectionSort.cpp)
+    - [Bubble Sort](Algorithms/Sorting/BubbleSort.cpp)
