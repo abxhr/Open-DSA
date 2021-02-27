@@ -17,6 +17,7 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 ## Algorithms
 - [Searching](Algorithms/Searching)
     - [Linear Search](Algorithms/Searching/LinearSearch.cpp)
+    - [Binary Search]()
 - [Sorting](Algorithms/Sorting)
     - [Selection Sort](Algorithms/Sorting/SelectionSort.cpp)
     - [Bubble Sort](Algorithms/Sorting/BubbleSort.cpp)
