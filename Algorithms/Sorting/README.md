@@ -4,7 +4,7 @@
 
 ### Algorithm
 ```
-selectionsort(array, n):
+selectionSort(array, n):
     for i -> n-1:
         min_index = i
         for j -> n:
@@ -17,3 +17,20 @@ selectionsort(array, n):
 - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
 - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
 - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n^2))
+
+
+## Bubble Sort
+
+### Algorithm
+```
+bubbleSort(array, n):
+    for i -> n-1:
+        for j -> n-i-1:
+            if (array[j] > array[j+1]):
+                swap(array[j], array[j+1])
+```
+
+### Complexity
+- Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
+- Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
+- Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n))
