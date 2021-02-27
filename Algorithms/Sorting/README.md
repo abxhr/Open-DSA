@@ -14,10 +14,12 @@ selectionSort(array, n):
 ```
 
 ### Complexity
-- Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
-- Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
-- Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n^2))
-
+- Time:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
+    - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
+    - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n^2))
+- Space:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
 
 ## Bubble Sort
 
@@ -31,10 +33,12 @@ bubbleSort(array, n):
 ```
 
 ### Complexity
-- Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
-- Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
-- Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n))
-
+- Time:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
+    - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
+    - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n))
+- Space:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
 
 ## Insertion Sort
 
@@ -51,6 +55,9 @@ insertionSort(array, n):
 ```
 
 ## Complexity
-- Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
-- Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
-- Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n))
+- Time:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
+    - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n^2))
+    - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n))
+- Space:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
