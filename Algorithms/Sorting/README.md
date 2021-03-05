@@ -1,6 +1,6 @@
 # Sorting
 
-## Selection Sort
+## [`Selection Sort`](SelectionSort.cpp)
 
 ### Algorithm
 ```
@@ -21,7 +21,7 @@ selectionSort(array, n):
 - Space:
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
 
-## Bubble Sort
+## [`Bubble Sort`](BubbleSort.cpp)
 
 ### Algorithm
 ```
@@ -40,17 +40,17 @@ bubbleSort(array, n):
 - Space:
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
 
-## Insertion Sort
+## [`Insertion Sort`](InsertionSort.cpp)
 
 ## Algorithm
 ```
 insertionSort(array, n):
     for i = 2 -> n:
         key = array[i]
-        j = i - 1;
+        j = i - 1
         while j > 0 and array[j] > key:
             array[j+1] = array[j]
-            j = j - 1;
+            j = j - 1
         array[j+1] = key
 ```
 
@@ -61,3 +61,26 @@ insertionSort(array, n):
     - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n))
 - Space:
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+
+
+## [`Merge Sort`](MergeSort.cpp)
+
+## Algorithm
+```
+mergeSort(array, int start, int end):
+    if (start >= end){
+        return
+    }
+    mid = (start + end)/2
+    mergeSort (arr, start, mid)
+    mergeSort (arr, mid+1, end)
+    merge (arr, start, mid, end)
+```
+
+## Complexity
+- Time:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n log(n)))
+    - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n log(n)))
+    - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n log(n)))
+- Space:
+    - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
