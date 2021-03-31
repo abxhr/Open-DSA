@@ -23,3 +23,4 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Bubble Sort](Algorithms/Sorting/BubbleSort.cpp)
     - [Insertion Sort](Algorithms/Sorting/InsertionSort.cpp)
     - [Merge Sort](Algorithms/Sorting/MergeSort.cpp)
+    - [Quick Sort](Algorithms/Sorting/QuickSort)
