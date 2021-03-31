@@ -119,7 +119,7 @@ partition(arr, low, high):
 ### Complexity
 - Time:
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
-    - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(n log(n)))
-    - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(n log(n)))
+    - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(nlog(n)))
+    - Best Case: ![formula](https://render.githubusercontent.com/render/math?math=\Omega(nlog(n)))
 - Space:
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(log(n)))
