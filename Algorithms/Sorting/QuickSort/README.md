@@ -1,6 +1,6 @@
-# [`Quick Sort`](QuickSort.cpp)
+# [`Quick Sort`](QuickSort/QuickSort.cpp)
 
-## Algorithm
+### Algorithm
 ```
 quickSort(array, low, high):
     if (low < high){
@@ -28,8 +28,7 @@ partition(arr, low, high):
     return j;
 ```
 
-## Complexity
-
+### Complexity
 - Time:
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n^2))
     - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=\Theta(nlog(n)))
