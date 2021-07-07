@@ -2,8 +2,8 @@
 Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.
 
 ## Implementation
-- [Singly Linked List](SinglyLinkedList.cpp)
-- [Doubly Linked List](DoublyLinkedList.cpp)
+- [Singly Linked List](SinglyLinkedList/SinglyLinkedList.cpp)
+- [Doubly Linked List](DoublyLinkedList/DoublyLinkedList.cpp)
 
 ## Complexity
 ### Singly Linked List
@@ -24,7 +24,7 @@ Unlike arrays, linked list elements are not stored at a contiguous location; the
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
 
 
-### Singly Linked List
+### Doubly Linked List
 - Time:
     - Access: 
         - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
