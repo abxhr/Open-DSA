@@ -8,7 +8,7 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Doubly Linked List](Data%20Structures/Linked%20List/DoublyLinkedList.cpp)
 - [Stacks](Data%20Structures/Stacks)
     - [Array Implementation](Data%20Structures/Stacks/Stacks_ArrayImplementation.cpp)
-    -  - [dynamic stack using array and template](Data%20Structures/Stacks/stacks_array_using_template_and_dynamicStack.cpp)
+    - [dynamic stack using array and template](Data%20Structures/Stacks/stacks_array_using_template_and_dynamicStack.cpp)
     - [Linked List Implementation](Data%20Structures/Stacks/Stacks_LLImplementation.cpp)
 - [Queues](Data%20Structures/Queues)
     - [Array Implementation](Data%20Structures/Queues/Queue_Array-Imp.cpp)
