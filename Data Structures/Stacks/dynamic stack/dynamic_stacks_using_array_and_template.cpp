@@ -23,7 +23,7 @@ public:
     
     void push(T element){
         if(nextIndex==capacity){
-        T *newdata=new T[capacity*2];   //dynamic_stack(freedom_of_size)
+        T *newdata=new T[capacity*2];   //dynamic_stack
         for(int i=0;i<capacity;i++){
             newdata[i]=data[i];
         }
