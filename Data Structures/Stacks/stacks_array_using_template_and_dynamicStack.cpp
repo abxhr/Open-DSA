@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-template<typename T>
+template<typename T> //template
 class StackUsingArray{
     T *data;
     int nextIndex;
@@ -23,7 +23,7 @@ public:
     
     void push(T element){
         if(nextIndex==capacity){
-        T *newdata=new T[capacity*2];
+        T *newdata=new T[capacity*2];   //dynamic_stack
         for(int i=0;i<capacity;i++){
             newdata[i]=data[i];
         }
