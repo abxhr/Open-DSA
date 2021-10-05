@@ -115,7 +115,7 @@ int main()
        cout<<"Enter number of nodes in tree: ";
        cin>>n;
        int arr[n];
-       printf("Enter the elements tree: ");
+       printf("Enter the elements of tree: ");
        for(int i=0;i<n;i++){
            cin>>arr[i];
        }
