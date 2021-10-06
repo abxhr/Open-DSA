@@ -1,4 +1,4 @@
-# Algorithms
+# Left Shift algorithms
 
 ## METHOD 1 (NAIVE) <br>
 Time = O(n*d) 
