@@ -1,7 +1,8 @@
-# Algorithm <br>
+# Right shift algorithm
 
-TIME = O(n) <br>
-SPACE = O(n)
+Time: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+Space: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+
 ```
 void rightShift(int a[], int n, int d){
     int i, b[n];

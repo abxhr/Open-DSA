@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 # Left Shift algorithms
+=======
+# Left Shift
+>>>>>>> 7fef0f80c0320aa55de9bae3faf9c0d13675f06c
 
-## METHOD 1 (NAIVE) <br>
-Time = O(n*d) 
+## Method 1 (NAIVE) 
+Time: ![formula](https://render.githubusercontent.com/render/math?math=O(n*d))
+
 ```
 void leftRotate(int arr[], int n, int d){       
     while(d--){
@@ -13,9 +18,10 @@ void leftRotate(int arr[], int n, int d){
 }
 ```
 
-## METHOD 2 <br>
-TIME=O(n) <br>
-space=O(d)
+## Method 2 
+Time: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+Space: ![formula](https://render.githubusercontent.com/render/math?math=O(d))
+
 ```
 void leftRotate2(int arr[], int n, int d){    
     int temp[d];
@@ -34,9 +40,10 @@ void leftRotate2(int arr[], int n, int d){
 }
 ```
 
-## METHOD 3 <br>
-time=O(n) <br>
-space O(1)
+## Method 3 
+Time: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+Space: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
+
 ```
 void reverseArr(int arr[], int start, int end){  // 
     while(end > start){
