@@ -24,8 +24,8 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Merge Sort](Algorithms/Sorting/MergeSort.cpp)
     - [Quick Sort](Algorithms/Sorting/QuickSort)
 - [Arrays](Algorithms/arrays)
-    - [Left Shift](Algorithms/arrays/leftShift/LeftShift.cpp)
-    - [Right Shift](Algorithms/arrays/rightShift/rightShift.cpp)
+    - [Left Shift](Algorithms/arrays/leftShift)
+    - [Right Shift](Algorithms/arrays/rightShift)
 
 
 ## Dynamic Programming
