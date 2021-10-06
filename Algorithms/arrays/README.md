@@ -1,4 +1,4 @@
 # Sorting
 
-- [Left Sort](leftShift/)
-- [Right Sort](rightShift/)
+- [Left Shift](leftShift/)
+- [Right Shift](rightShift/)
