@@ -1,6 +1,8 @@
-#include<bits/stdc++.h>
-using namespace std;
+# Algorithm <br>
 
+TIME = O(n) <br>
+SPACE = O(n)
+```
 void rightShift(int a[], int n, int d){
     int i, b[n];
     for(i=0;i<n;i++){
@@ -14,14 +16,4 @@ void rightShift(int a[], int n, int d){
     for(i=0;i<n;i++)
         cout<<a[i]<<" ";
 }
-
-int main() {
-    int i,d,n;
-    cin>>n;
-    int a[n];
-    for(i=0;i<n;i++)
-       cin>>a[i]; 
-    cin>>d;
-    rightShift(a,n,d);
-    return 0;
-}
+```
