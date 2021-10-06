@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Left Shift algorithms
-=======
-# Left Shift
->>>>>>> 7fef0f80c0320aa55de9bae3faf9c0d13675f06c
 
 ## Method 1 (NAIVE) 
 Time: ![formula](https://render.githubusercontent.com/render/math?math=O(n*d))
