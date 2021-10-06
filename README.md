@@ -13,7 +13,6 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Array Implementation](Data%20Structures/Queues/Queue_Array-Imp.cpp)
     - [Linked List Implementation](Data%20Structures/Queues/Queue_LL-Imp.cpp)
 
-
 ## Algorithms
 - [Searching](Algorithms/Searching)
     - [Linear Search](Algorithms/Searching/LinearSearch.cpp)
@@ -24,3 +23,5 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Insertion Sort](Algorithms/Sorting/InsertionSort.cpp)
     - [Merge Sort](Algorithms/Sorting/MergeSort.cpp)
     - [Quick Sort](Algorithms/Sorting/QuickSort)
+
+## Dynamic Programming
