@@ -25,3 +25,4 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Quick Sort](Algorithms/Sorting/QuickSort)
 
 ## Dynamic Programming
+- [Knapsack](dp/Knapsack/Knapsack.cpp)
