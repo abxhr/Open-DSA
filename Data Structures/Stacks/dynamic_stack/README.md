@@ -17,9 +17,9 @@ return nextIndex;
     
 `checkEmpty():`
 
- ```
+```
 return nextIndex==0;        
- ```
+```
  
 `push(x):`
 
@@ -39,20 +39,20 @@ nextIndex++;
 
 `pop():`
 
- ```
+```
 if(checkEmpty()){
 cout<<"stack is empty"<<endl;
 return 0;
 }
 nextIndex--;
 return data[nextIndex];
- ```  
+```  
  
 `top():`
 
- ```
+```
  return data[nextIndex-1];
- ```
+```
   
 ## Errors:
 
