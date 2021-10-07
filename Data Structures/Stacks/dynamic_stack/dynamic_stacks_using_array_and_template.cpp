@@ -69,8 +69,8 @@ int main(){
         cout<<"2. Pop\n";
         cout<<"3. top\n";
         cout<<"4. size\n";
-          cout<<"5. check\n";
-            cout<<"6. display\n";
+        cout<<"5. check\n";
+        cout<<"6. display\n";
         cout<<"\nEnter your Choice :: ";
         cin>>ch;
 
