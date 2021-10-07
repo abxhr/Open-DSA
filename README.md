@@ -23,6 +23,10 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Insertion Sort](Algorithms/Sorting/InsertionSort.cpp)
     - [Merge Sort](Algorithms/Sorting/MergeSort.cpp)
     - [Quick Sort](Algorithms/Sorting/QuickSort)
+- [Arrays](Algorithms/arrays)
+    - [Left Shift](Algorithms/arrays/leftShift)
+    - [Right Shift](Algorithms/arrays/rightShift)
+
 
 ## Dynamic Programming
 - [Knapsack](dp/Knapsack/Knapsack.cpp)
