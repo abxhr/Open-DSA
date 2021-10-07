@@ -30,3 +30,4 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 
 ## Dynamic Programming
 - [Knapsack](dp/Knapsack/Knapsack.cpp)
+- [Subset Sum](dp/SubsetSum/SubsetSum.cpp)
