@@ -33,3 +33,4 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 - [Knapsack](dp/Knapsack/Knapsack.cpp)
 - [Subset Sum](dp/SubsetSum/SubsetSum.cpp)
 - [Unbounded Knapsack](dp/UnboundedKnapsack/UnboundedKnapsack.cpp)
+- [Rod Cut](dp/RodCut/RodCut.cpp)
