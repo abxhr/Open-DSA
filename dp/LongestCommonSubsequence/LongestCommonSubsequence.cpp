@@ -28,7 +28,7 @@ int main()
   cout << "Enter first string: ";
   cin >> x;
 
-  cout << "Enter secong string: ";
+  cout << "Enter second string: ";
   cin >> y;
 
   int n = x.size();
