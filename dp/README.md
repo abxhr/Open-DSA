@@ -4,4 +4,5 @@
 - [Subset Sum](SubsetSum/)
 - [Unbounded Knapsack](UnboundedKnapsack/)
 - [Rod Cut](RodCut/)
+- [Shortest Common Subsequence](ShortestCommonSubsequence/)
 - [Longest Repeating Subsequence](LongestRepeatingSubsequence/)
