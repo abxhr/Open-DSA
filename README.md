@@ -34,6 +34,7 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 - [Subset Sum](dp/SubsetSum/SubsetSum.cpp)
 - [Unbounded Knapsack](dp/UnboundedKnapsack/UnboundedKnapsack.cpp)
 - [Rod Cut](dp/RodCut/RodCut.cpp)
-- [Longest Common Substring](dp/LongestCommonSubstring/LongestCommonSubstring.cpp)
+- [Longest Common Subsequence](dp/LongestCommonSubsequence/LongestCommonSubsequence.cpp)
 - [Shortest Common Subsequence](dp/ShortestCommonSubsequence/ShortestCommonSubsequence.cpp)
 - [Longest Repeating Subsequence](dp/LongestRepeatingSubsequence/LongestRepeatingSubsequence.cpp)
+- [Longest Common Substring](dp/LongestCommonSubstring/LongestCommonSubstring.cpp)
