@@ -12,3 +12,4 @@
 - [Maximum Product Subarray](MaximumProductSubarray/)
 - [Longest Arithmetic Subsequence](LongestArithmeticSubsequence/)
 - [Longest Palindromic Substring](LongestPalindromicSubstring/)
+- [Equal Sum Partition](EqualSumPartition/)
