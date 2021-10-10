@@ -38,3 +38,4 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 - [Shortest Common Subsequence](dp/ShortestCommonSubsequence/ShortestCommonSubsequence.cpp)
 - [Longest Repeating Subsequence](dp/LongestRepeatingSubsequence/LongestRepeatingSubsequence.cpp)
 - [Longest Common Substring](dp/LongestCommonSubstring/LongestCommonSubstring.cpp)
+- [Longest Palindromic Substring](dp/LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)
