@@ -24,9 +24,12 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Insertion Sort](Algorithms/Sorting/InsertionSort.cpp)
     - [Merge Sort](Algorithms/Sorting/MergeSort.cpp)
     - [Quick Sort](Algorithms/Sorting/QuickSort)
+    - [Union of two sorted arrays](Algorithms/Sorting/Union_of_two_sorted_arrays)
+    - [Intersection of two sorted arrays](Algorithms/Sorting/Intersection_of_two_sorted_arrays)
 - [Arrays](Algorithms/arrays)
     - [Left Shift](Algorithms/arrays/leftShift)
     - [Right Shift](Algorithms/arrays/rightShift)
+    
 
 
 ## Dynamic Programming
@@ -38,3 +41,7 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 - [Shortest Common Subsequence](dp/ShortestCommonSubsequence/ShortestCommonSubsequence.cpp)
 - [Longest Repeating Subsequence](dp/LongestRepeatingSubsequence/LongestRepeatingSubsequence.cpp)
 - [Longest Common Substring](dp/LongestCommonSubstring/LongestCommonSubstring.cpp)
+- [Matrix Chain Multiplication](dp/MatrixChainMultiplication/MatrixChainMultiplication.cpp)
+- [Maximum Product Subarray](dp/MaximumProductSubarray/MaximumProductSubarray.cpp)
+- [Longest Arithmetic Subsequence](dp/LongestArithmeticSubsequence/LongestArithmeticSubsequence.cpp)
+- [Longest Palindromic Substring](dp/LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)
