@@ -9,3 +9,5 @@
 - [Longest Repeating Subsequence](LongestRepeatingSubsequence/)
 - [Longest Common Substring](LongestCommonSubstring/)
 - [Maximum Product Subarray](MaximumProductSubarray/)
+- [Longest Arithmetic Subsequence](LongestArithmeticSubsequence/)
+- [Longest Palindromic Substring](LongestPalindromicSubstring/)
