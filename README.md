@@ -39,3 +39,6 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 - [Longest Repeating Subsequence](dp/LongestRepeatingSubsequence/LongestRepeatingSubsequence.cpp)
 - [Longest Common Substring](dp/LongestCommonSubstring/LongestCommonSubstring.cpp)
 - [Matrix Chain Multiplication](dp/MatrixChainMultiplication/MatrixChainMultiplication.cpp)
+- [Maximum Product Subarray](dp/MaximumProductSubarray/MaximumProductSubarray.cpp)
+- [Longest Arithmetic Subsequence](dp/LongestArithmeticSubsequence/LongestArithmeticSubsequence.cpp)
+- [Longest Palindromic Substring](dp/LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)

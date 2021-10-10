@@ -9,3 +9,6 @@
 - [Longest Repeating Subsequence](LongestRepeatingSubsequence/)
 - [Longest Common Substring](LongestCommonSubstring/)
 - [Matrix Chain Multiplication](MatrixChainMultiplication/)
+- [Maximum Product Subarray](MaximumProductSubarray/)
+- [Longest Arithmetic Subsequence](LongestArithmeticSubsequence/)
+- [Longest Palindromic Substring](LongestPalindromicSubstring/)
