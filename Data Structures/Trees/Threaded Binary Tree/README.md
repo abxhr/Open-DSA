@@ -83,3 +83,16 @@ Time complexity for:
 The time required for finding inorder predecessor or successor for a given node is O(1) provided we are on that node.
 
 **The Code for Threaded Binary Tree and all other Operations are given in Threaded_Binary_Tree_all.cpp**
+
+**Convert a Binary Tree to Threaded Binary Tree (Using Queue)**
+
+We basically need to set NULL right pointers to inorder successor. We first do an inorder traversal of the tree and store it in a queue (we can use a simple array also) so that the inorder successor becomes the next node. We again do an inorder traversal and whenever we find a node whose right is NULL, we take the front item from queue and make it the right of current node. We also set isThreaded to true to indicate that the right pointer is a threaded link. 
+
+**The Code for conversion of a Binary Tree to Threaded Binary Tree (Using Queue) is given in Binary_to_threaded.cpp**
+
+**Convert a Binary Tree to Threaded Binary Tree (Efficient Method)**
+
+In this efficient case, a space-efficient solution is discussed that doesn’t require a queue.
+The idea is based on the fact that we link from inorder predecessor to a node. We link those inorder predecessor which lie in subtree of node. So we find inorder predecessor of a node if its left is not NULL. Inorder predecessor of a node (whose left is NULL) is a rightmost node in the left child. Once we find the predecessor, we link a thread from it to the current node. This algorithm works in O(n) time complexity and O(1) space other than function call stack.
+
+**The Code for conversion of a Binary Tree to Threaded Binary Tree (Efficient Method) is given in E_Binary_to_threaded.cpp**
