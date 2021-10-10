@@ -8,3 +8,4 @@
 - [Shortest Common Subsequence](ShortestCommonSubsequence/)
 - [Longest Repeating Subsequence](LongestRepeatingSubsequence/)
 - [Longest Common Substring](LongestCommonSubstring/)
+- [Matrix Chain Multiplication](MatrixChainMultiplication/)
