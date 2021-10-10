@@ -8,6 +8,7 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Doubly Linked List](Data%20Structures/Linked%20List/DoublyLinkedList.cpp)
 - [Stacks](Data%20Structures/Stacks)
     - [Array Implementation](Data%20Structures/Stacks/Stacks_ArrayImplementation.cpp)
+    - [Dynamic Stack using Array and Template](Data%20Structures/Stacks/dynamic_stack/dynamic_stacks_using_array_and_template.cpp)
     - [Linked List Implementation](Data%20Structures/Stacks/Stacks_LLImplementation.cpp)
 - [Queues](Data%20Structures/Queues)
     - [Array Implementation](Data%20Structures/Queues/Queue_Array-Imp.cpp)
@@ -30,3 +31,10 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 
 ## Dynamic Programming
 - [Knapsack](dp/Knapsack/Knapsack.cpp)
+- [Subset Sum](dp/SubsetSum/SubsetSum.cpp)
+- [Unbounded Knapsack](dp/UnboundedKnapsack/UnboundedKnapsack.cpp)
+- [Rod Cut](dp/RodCut/RodCut.cpp)
+- [Longest Common Subsequence](dp/LongestCommonSubsequence/LongestCommonSubsequence.cpp)
+- [Shortest Common Subsequence](dp/ShortestCommonSubsequence/ShortestCommonSubsequence.cpp)
+- [Longest Repeating Subsequence](dp/LongestRepeatingSubsequence/LongestRepeatingSubsequence.cpp)
+- [Longest Common Substring](dp/LongestCommonSubstring/LongestCommonSubstring.cpp)
