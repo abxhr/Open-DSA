@@ -8,4 +8,5 @@
 - [Shortest Common Subsequence](ShortestCommonSubsequence/)
 - [Longest Repeating Subsequence](LongestRepeatingSubsequence/)
 - [Longest Common Substring](LongestCommonSubstring/)
+- [Longest Arithmetic Subsequence](LongestArithmeticSubsequence/)
 - [Longest Palindromic Substring](LongestPalindromicSubstring/)
