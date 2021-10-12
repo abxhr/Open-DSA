@@ -45,3 +45,4 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 - [Maximum Product Subarray](dp/MaximumProductSubarray/MaximumProductSubarray.cpp)
 - [Longest Arithmetic Subsequence](dp/LongestArithmeticSubsequence/LongestArithmeticSubsequence.cpp)
 - [Longest Palindromic Substring](dp/LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)
+- [Equal Sum Partition](dp/EqualSumPartition/EqualSumPartition.cpp)
