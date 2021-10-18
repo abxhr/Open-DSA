@@ -1,6 +1,8 @@
 /* C++ program to convert a Binary Tree to
 	Threaded Tree */
-#include <bits/stdc++.h>
+#include <iostream> 
+#include <queue>
+
 using namespace std;
 
 /* Structure of a node in threaded binary tree */
