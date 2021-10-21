@@ -30,6 +30,8 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Left Shift](Algorithms/arrays/leftShift)
     - [Right Shift](Algorithms/arrays/rightShift)
     - [Frequency of occurence](Algorithms/arrays/frequency%20of%20occurence)
+- [Heaps](Algorithms/Heap)
+    - [kth largest element](Algorithms/Heap/kth_largest_element)
     
 
 
