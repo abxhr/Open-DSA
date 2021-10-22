@@ -16,3 +16,5 @@
         - Average Case: ![formula](https://render.githubusercontent.com/render/math?math=O(1))
 - Space:
     - Worst Case: ![formula](https://render.githubusercontent.com/render/math?math=O(n))
+    
+    ## Create nth node from the end of the linked list
