@@ -1,11 +1,11 @@
-#AVL Tree
+# AVL Tree
 
 AVL tree is a self-balancing Binary Search Tree where the difference between heights of left and right subtrees cannot be more than one for all nodes.
 
 Tree rotation is an operation that changes the structure without interfering with the order of the elements on an AVL tree. It moves one node up in the tree and one node down. It is used to change the shape of the tree, and to decrease its height by moving smaller subtrees down and larger subtrees up, resulting in improved performance of many tree operations. The direction of a rotation depends on the side which the tree nodes are shifted upon whilst others say that it depends on which child takes the root’s place. This is a C++ Program to Implement AVL Tree.
 
 
-Function Descriptions:
+### Function Descriptions:
 
 `height(avl *)` : It calculate the height of the given AVL tree.
 
