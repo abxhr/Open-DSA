@@ -35,3 +35,8 @@ Tree rotation is an operation that changes the structure without interfering wit
 
 The rotation operations (left and right rotate) take constant time as only a few pointers are being changed there. Updating the height and getting the balance factor also takes constant time. So the time complexity of AVL insert remains same as BST insert which is O(h) where h is the height of the tree. Since AVL tree is balanced, the height is O(Logn). So time complexity of AVL insert is O(Logn).
 
+### Applications
+
+AVL trees are mostly used for in-memory sorts of sets and dictionaries.<br>
+AVL trees are also used extensively in database applications in which insertions and deletions are fewer but there are frequent lookups for data required.<br>
+It is used in applications that require improved searching apart from the database applications.<br>
