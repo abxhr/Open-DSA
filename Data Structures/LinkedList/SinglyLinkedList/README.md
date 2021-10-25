@@ -45,9 +45,3 @@ curr->next = prev
 // Move prev and curr one step forward 
 prev = curr 
 curr = next
-
-
-
-
-
-  
