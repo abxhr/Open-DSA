@@ -14,7 +14,7 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
     - [Array Implementation](Data%20Structures/Queues/Queue_Array-Imp.cpp)
     - [Linked List Implementation](Data%20Structures/Queues/Queue_LL-Imp.cpp)
 - [Trees](Data%20Structures/Trees)
-    - [AVL Tree](Data%20Structures/Trees/AVLtree.cpp)
+    - [AVL Tree](Data%20Structures/Trees/AVL%20tree/AVLtree.cpp)
 
 ## Algorithms
 - [Searching](Algorithms/Searching)
