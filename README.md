@@ -5,6 +5,7 @@ A curated list of [Data Structres](Data%20Structures) and [Algorithms](Algorithm
 - [Arrays](Data%20Structures/Arrays)
 - [Linked List](Data%20Structures/Linked%20List)
     - [Singly Linked List](Data%20Structures/Linked%20List/SinglyLinkedList.cpp)
+    - [nth_node](Data%20Structures/Linked%20List/nth_node.cpp)
     - [Doubly Linked List](Data%20Structures/Linked%20List/DoublyLinkedList.cpp)
 - [Stacks](Data%20Structures/Stacks)
     - [Array Implementation](Data%20Structures/Stacks/Stacks_ArrayImplementation.cpp)
